@@ -77,10 +77,12 @@ o	For E.G - cd eclipse-workspace > cd selenium-test > mvn clean test
 
 
 2.	**The second test is incorrectEmailTest() // **
+
 •	in which user fails to match the validation for an email which includes - @,valid domain name and username.
 •	Invalid Email verification Assertion has been used verify the actual msg =  expected msg and if test will fail some message will print in console.
 
 **DATA FOR TEST ASSERTIONS IN incorrectEmailTest()  in SignUpNegativeTest.java
+
 1.	Send these invalid email data under sendkeys -> 
 		WebElement workemail = driver.findElement(By.id("email"));
 		workemail.sendKeys("Dakshitayahoocom ");
@@ -101,6 +103,7 @@ rahulgmail.com
 •	Here if user will give already registered EMAIL for signing-up 
 •	That time Existing EMAIL Error msg will be thrown/display in UI 
 •	Assertions has been added in the test
+
 
 **DATA FOR TEST ASSERTIONS IN existingEmailTest() in SignUpNegativeTest.java****
 1.	Send these existing email  id data under sendkeys
