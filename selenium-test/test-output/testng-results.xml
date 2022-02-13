@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-12T21:40:59 IST" name="Default suite" finished-at="2022-02-12T21:41:39 IST" duration-ms="39051">
+    <groups>
+      <group name="signupNegativeTests">
+        <method signature="SignUpNegativeTest.emptyUsernameTest()[pri:1, instance:com.miro.signup.SignUpNegativeTest@35aea049]" name="emptyUsernameTest" class="com.miro.signup.SignUpNegativeTest"/>
+        <method signature="SignUpNegativeTest.incorrectEmailTest()[pri:2, instance:com.miro.signup.SignUpNegativeTest@35aea049]" name="incorrectEmailTest" class="com.miro.signup.SignUpNegativeTest"/>
+        <method signature="SignUpNegativeTest.incorrectPasswordTest()[pri:3, instance:com.miro.signup.SignUpNegativeTest@35aea049]" name="incorrectPasswordTest" class="com.miro.signup.SignUpNegativeTest"/>
+      </group> <!-- signupNegativeTests -->
+      <group name="smokeTests">
+        <method signature="SignUpNegativeTest.emptyUsernameTest()[pri:1, instance:com.miro.signup.SignUpNegativeTest@35aea049]" name="emptyUsernameTest" class="com.miro.signup.SignUpNegativeTest"/>
+      </group> <!-- smokeTests -->
+    </groups>
+    <test started-at="2022-02-12T21:40:59 IST" name="Default test" finished-at="2022-02-12T21:41:39 IST" duration-ms="39051">
+      <class name="com.miro.signup.SignUpNegativeTest">
+        <test-method signature="emptyUsernameTest()[pri:1, instance:com.miro.signup.SignUpNegativeTest@35aea049]" started-at="2022-02-12T21:41:00 IST" name="emptyUsernameTest" finished-at="2022-02-12T21:41:17 IST" duration-ms="17580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyUsernameTest -->
+        <test-method signature="incorrectEmailTest()[pri:2, instance:com.miro.signup.SignUpNegativeTest@35aea049]" started-at="2022-02-12T21:41:17 IST" name="incorrectEmailTest" finished-at="2022-02-12T21:41:28 IST" duration-ms="11082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectEmailTest -->
+        <test-method signature="incorrectPasswordTest()[pri:3, instance:com.miro.signup.SignUpNegativeTest@35aea049]" started-at="2022-02-12T21:41:28 IST" name="incorrectPasswordTest" finished-at="2022-02-12T21:41:39 IST" duration-ms="10334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectPasswordTest -->
+      </class> <!-- com.miro.signup.SignUpNegativeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
